@@ -33,9 +33,9 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/assets/index.js",
-              "src/assets/cdnImask.js",
-              "src/assets/cdn2.js"
+              "src/assets/scripts/index.js",
+              "src/assets/scripts/cdnImask.min.js",
+              "src/assets/scripts/cdn2.min.js"
             ]
           },
           "configurations": {
