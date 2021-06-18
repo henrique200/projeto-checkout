@@ -224,7 +224,7 @@ input {
 }
 
 #cardfront .st4 {
-  font-size: 54.7817px;
+  font-size: 47.7817px;
   fill: #FFFFFF;
 }
 
@@ -348,7 +348,7 @@ input {
   position: absolute;
   width: 100%;
   max-width: 400px;
-  /* -webkit-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-font-smoothing: antialiased;
   color: #47525d;

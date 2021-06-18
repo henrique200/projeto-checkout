@@ -35,7 +35,8 @@
             "scripts": [
               "src/assets/scripts/index.js",
               "src/assets/scripts/cdnImask.min.js",
-              "src/assets/scripts/cdn2.min.js"
+              "src/assets/scripts/cdn2.min.js",
+              "src/assets/scripts/rxjs.min.js"
             ]
           },
           "configurations": {
