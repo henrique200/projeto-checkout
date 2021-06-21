@@ -53,7 +53,7 @@ body {
   display: grid;
   grid-column-gap: 10px;
   grid-template-columns: auto auto;
-  grid-template-rows: 90px 90px 90px;
+  grid-template-rows: 80px 80px 80px;
   grid-template-areas: "name name""number number""expiration security";
   max-width: 400px;
   padding: 20px;
@@ -75,10 +75,10 @@ input {
 }
 
 .ccicon {
-  height: 38px;
+  height: 34px;
   position: absolute;
   right: 6px;
-  top: calc(50% - 17px);
+  top: calc(50% - 9px);
   width: 60px;
 }
 
@@ -242,7 +242,6 @@ input {
 #cardfront .st7 {
   opacity: 0.6;
   fill: #FFFFFF;
-
 }
 
 #cardfront .st8 {
@@ -362,4 +361,13 @@ input {
 .creditcard.flipped {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
+}
+
+#example-button-row{
+  margin-top: 3px;
+  padding: 15px;
+  font-size: 16px;
+  width: 183%;
+  border-radius: 15px;
+  border: 1px solid #dcdcdc;
 }
